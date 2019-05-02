@@ -1,0 +1,36 @@
+{
+  "name": "playground",
+  "version": "0.0.0",
+  "description": "",
+  "private": true,
+  "main": "dist/App.js",
+  "scripts": {
+    "start": "npm run serve",
+    "serve": "node dist/App.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsirpc/playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsirpc/playground/issues"
+  },
+  "homepage": "https://github.com/dsirpc/playground#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "typescript": "2.7.2",
+    "@types/node": "6.0.60",
+    "@types/mongoose": "5.0.7",
+    "@types/express": "4.11.1",
+    "@types/body-parser": "1.16.8",
+    "@types/passport": "0.4.3",
+    "@types/jsonwebtoken": "7.2.6",
+    "@types/express-jwt": "0.0.38",
+    "concurrently": "3.5.1"
+  },
+}
